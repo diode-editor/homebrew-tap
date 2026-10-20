@@ -1,13 +1,13 @@
-# Сгенерировано packaging/render.mjs из релиза v0.9.4 — руками не править.
+# Сгенерировано packaging/render.mjs из релиза v0.9.5 — руками не править.
 cask "diode" do
   arch arm: "arm64", intel: "x64"
   os macos: "macos", linux: "linux"
 
-  version "0.9.4"
-  sha256 arm:          "94ef888fba609f02258ef73bc85fe7c9cb28cab725b10332f707c0e44464847f",
-         intel:        "9f1a3a3ce2508843174e29c42246a2b52d10f9a5ea52e61cc4e4591bb94c8466",
-         arm64_linux:  "e97b6a209e144ce11bcd4211cb441709741147fbd07604b55a698a30994f4c3d",
-         x86_64_linux: "775e929af166b2dc415f7810ff2162b60bc385f56073a66ea08cee54c3b23376"
+  version "0.9.5"
+  sha256 arm:          "92a54beb7ca287257daac628f2a9d1ffa505c31607f1cd1ccbf67d722b50c279",
+         intel:        "a735cea99d396ade135121c60b14f90d9fc0f85656f4fa6602c8213030aae592",
+         arm64_linux:  "7540a3b848d7519646a614f2c3604914ace7f5029af2ac79a8ab7250af733e93",
+         x86_64_linux: "30f4d6820bc51012df6a3d6d3a6d3a5b3261839bc2e46fbb006f650568c11daf"
 
   url "https://github.com/diode-editor/diode/releases/download/v#{version}/diode-#{os}-#{arch}"
   name "Diode"
